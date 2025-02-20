@@ -1,0 +1,17 @@
+body,html{
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  margin-bottom: 30px;
+}
+.gradient-custom {
+  /* Fallback para navegadores antiguos */
+  background: #6a11cb;
+
+  /* Degradado lineal para Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+  /* Degradado lineal para navegadores compatibles con W3C */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}

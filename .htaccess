@@ -1,0 +1,8 @@
+#Activa la sobrescritura de las reglas
+RewriteEngine On
+
+#Oculta carpetas del proyecto
+Options All -Indexes
+
+#Habilita las URL amigables
+RewriteRule ^([a-zA-Z0-9/ñÑ-]+)$ index.php?views=$1
